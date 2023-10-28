@@ -1,0 +1,21 @@
+.containerItems{
+  margin: auto;
+  width: 80%;
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+  font-weight: 500;
+}
+.searchDiv{
+  width: max-content;
+  margin: 20px auto;
+  display: flex;
+  /* margin-right: 40%; */
+  gap: 5px;
+}
+.itemsBox{
+  cursor: pointer;
+}

@@ -1,0 +1,44 @@
+.displayRecipe{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recipeTop{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items:center ;
+
+}
+.nutritionDiv{
+    margin-top: 40px;
+    /* background-color: red; */
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    margin-top: -0px;
+    font-weight: 500;
+}
+.recipeTop img{
+    border-radius: 20px;
+    height: 400px;
+    width: 400px;
+}
+.cookingBtn{
+    width: max-content;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    background-color: orange;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.btnContainer>button{
+    margin-right: 30px;
+}
+.cookingBtn:hover{
+    box-shadow: 0 0 5px 5px orange;
+}
