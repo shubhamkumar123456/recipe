@@ -4,6 +4,7 @@ import './displayRecipe.css'
 const DisplayRecipe = (props) => {
     // const navigate =useNavigate()
     let location = useLocation();
+    console.log(location)
     let recipeDetails = location.state.recipe
     let recipe = location.state.recipe
     console.log(recipeDetails)

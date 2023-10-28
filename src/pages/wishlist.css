@@ -1,0 +1,29 @@
+.wishlist{
+    margin: auto;
+    width: 800px;
+    height: 100vh;
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap:10px
+}
+.wishlistBox{
+    /* background-color: red; */
+    width: 300px;
+    height: 355px;
+    text-align: center;
+}
+.wishlistBox img{
+    width: 100%;
+}
+@media only screen and (max-width: 900px){
+.wishlist{
+    width: 700px;
+}
+}
+@media only screen and (max-width: 708px){
+.wishlist{
+    width: max-content;
+    grid-template-columns: repeat(1,auto);
+}
+}

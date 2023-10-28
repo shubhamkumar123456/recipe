@@ -38,7 +38,7 @@ const Home = () => {
           return <Link to="/recipe" state={items}>
           <div className='itemsBox'>
             <img src={items.recipe.image} alt="" />
-            <p>{items.recipe.label}</p>
+            <p className='homeItemLabel'>{items.recipe.label}</p>
           </div>
           </Link>
         
